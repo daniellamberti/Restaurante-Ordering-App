@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Restaurant Ordering App Solo Project</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Jimmys' Diner</h1>
+            <h2>The best burgers and pizzas in town</h2>
+        </header>
+
+        <main id="main">
+            <div id="products"></div>
+
+            <div id="order" class="order-div">
+                <h2 class="order-title">Your order</h2>
+            </div>
+
+            <div id="final-msg">
+                <p>Thanks James! Your order is on its way!</p>
+            </div>
+
+            <div id="checkout">
+                <button id="complete-order">Complete order</button>
+            </div>
+
+            <div id="final-form" class="form-class">
+                <form id="user-form">
+                    <fieldset>Enter card details</fieldset>
+                        <input id="name" type="text" placeholder="Enter your name" required>
+                        <input id="card-number" type="number" placeholder="Enter card number" required>
+                        <input id="cvv-number" type="number" placeholder="Enter CVV" required>
+                        <button id="send-btn">Pay</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+        <script src="index.js" type="module"></script>
+</body>
+</html>
