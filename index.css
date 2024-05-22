@@ -16,7 +16,7 @@ body {
 header {
     width: 600px;
     height: 100px;
-    background-image: url(/images/jimmysDiner.png);
+    background-image: url(./images/jimmysDiner.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
